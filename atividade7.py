@@ -15,7 +15,7 @@ resto = resto % 10
 notas_1 = resto
 
 # Exibe o resultado
-print(f"Para pagar a conta de R${valor}, você precisará de:")
-print(f"{notas_50} nota(s) de 50")
-print(f"{notas_10} nota(s) de 10")
-print(f"{notas_1} nota(s) de 1")
+print("Para pagar a conta de R$",valor, "você precisará de:")
+print(notas_50, "nota(s) de 50")
+print(notas_10, "nota(s) de 10")
+print(notas_1, "nota(s) de 1")
